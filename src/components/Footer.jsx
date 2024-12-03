@@ -38,12 +38,10 @@ function Footer() {
                   d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
               </svg>
             </span>
-            Project description
+            Ecommerce Project by Nicolás Zunino
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer
-            content. Lorem ipsum dolor sit amet, consectetur adipisicing
-            elit.
+          A ReactJS-based e-commerce simulation showcasing product management, catalog integration via FakeStoreAPI, and upcoming MercadoPago integration for payments. Future plans include building a custom API to enhance functionality and performance.
           </p>
         </div>
         {/* Products section */}
