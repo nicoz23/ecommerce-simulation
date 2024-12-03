@@ -40,7 +40,7 @@ function Login({ setToken }) {
   return (
     <>
       <Menu setToken={setToken}/>
-      <div  className={`${usersReg ? "block" : "hidden" } fixed top-52 left-52 z-50 justify-center items-center w-fit h-fit p-4 backdrop-blur rounded-2xl border border-gray-400 shadow-white shadow-inner`}>
+      <div  className={`${usersReg ? "block" : "hidden" } fixed top-0 right-0 bottom-0 left-0 z-50 justify-center items-center w-fit h-fit p-4 backdrop-blur rounded-2xl border border-gray-400 shadow-white shadow-inner`}>
         <ol className="text-white h-full justify-center items-center flex flex-col">
           <p>johnd : m38rmF$</p>
           <p>mor_2314 : 83r5^_</p>
@@ -55,9 +55,6 @@ function Login({ setToken }) {
         </ol>
       </div>
       <div className="w-full h-screen login-bg flex items-center justify-center bg-[#a6bcd3]">
-        {/* <div>
-          (presentación proyecto)
-        </div> */}
         <div className="w-full max-w-sm mx-auto p-4 bg-white border border-gray-200 rounded-lg shadow-slate-600 shadow-2xl sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
           <form onSubmit={(e) => e.preventDefault()} className="space-y-6">
             <h5 className="text-xl font-medium text-gray-900 dark:text-white">
@@ -77,7 +74,7 @@ function Login({ setToken }) {
                 required
                 autoComplete="off"
                 onChange={(e) => {
-                  setUsername(e.target.value);
+                  setUsername(e.target.value.trim());
                 }}
                 type="text"
                 placeholder="John Doe"
@@ -97,7 +94,7 @@ function Login({ setToken }) {
                 required
                 autoComplete="off"
                 onChange={(e) => {
-                  setPassword(e.target.value);
+                  setPassword(e.target.value.trim());
                 }}
                 type="password"
                 placeholder="••••••••"
