@@ -14,7 +14,7 @@ import { useState } from "react"
 function App() {
   const [token, setToken] = useState(localStorage.getItem("userToken") ?? null)
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Routes>
         <Route path="/login" element={<Login setToken={setToken} />}/>
 
