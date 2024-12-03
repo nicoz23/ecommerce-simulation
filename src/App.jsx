@@ -14,7 +14,7 @@ import { useState } from "react"
 function App() {
   const [token, setToken] = useState(localStorage.getItem("userToken") ?? null)
   return (
-    <Router>
+    <Router basename="/ecommerce-simulation/">
       <Routes>
         <Route path="/login" element={<Login setToken={setToken} />}/>
 
