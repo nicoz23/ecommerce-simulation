@@ -22,7 +22,7 @@ function Profile() {
             User information
           </h1>
           {/* mobile design */}
-          <div className="flex flex-col justify-start items-center mx-auto w-4/5 bg-white rounded-2xl border border-gray-300 shadow-lg p-5 gap-2">
+          <div className="sm:hidden flex flex-col justify-start items-center mx-auto w-4/5 bg-white rounded-2xl border border-gray-300 shadow-lg p-5 gap-2">
             <img
               src={UserPic}
               alt="profile picture"
