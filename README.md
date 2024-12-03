@@ -1,26 +1,27 @@
-Ecommerce - Proyecto de Nicolás Zunino
+Ecommerce - Project by Nicolás Zunino
 
-Este proyecto es una simulación de un comercio electrónico desarrollado por Nicolás Zunino. Su objetivo es demostrar cómo se pueden integrar diversas tecnologías para crear una plataforma funcional de compras en línea. A continuación, te presentamos las características principales del proyecto:
-Características principales:
+This project is a simulation of an online store developed by Nicolás Zunino, with the main goal of integrating modern technologies to create a functional e-commerce platform. While still in the development stage, it provides a solid foundation for showcasing web development skills.
+Main Features
 
-    Autenticación de usuarios: Los usuarios pueden crear una cuenta y acceder a la plataforma de manera segura utilizando autenticación con JWT.
+    Complete Product Management (CRUD): The administrator can create, read, update, and delete products in the catalog, enabling full inventory management.
+    Usage of FakeStoreAPI: The project consumes data from FakeStoreAPI to simulate a product catalog with categories, prices, images, and descriptions.
+    Frontend in ReactJS: The application is built with ReactJS, ensuring a dynamic, interactive, and modern user experience.
+    Payment Integration (in progress): The integration with MercadoPago is currently being developed, which will allow users to securely make transactions directly on the platform.
 
-    CRUD completo: Se implementaron las funcionalidades de crear, leer, actualizar y eliminar productos en el catálogo, permitiendo la gestión total del inventario desde el lado del administrador.
+Current Limitations
 
-    Uso de API (FakeStoreAPI): El proyecto consume la API FakeStoreAPI para obtener y mostrar productos. Esta API permite simular un catálogo de productos con categorías, precios, imágenes y detalles de cada uno.
+Although the project works as a simulation, there are areas that need improvement:
 
-    Frontend en ReactJS: El proyecto está desarrollado en ReactJS, lo que permite una experiencia de usuario fluida, dinámica y altamente interactiva.
+    Payment Gateway: The integration with MercadoPago is still pending.
+    FakeStoreAPI Limitations: While FakeStoreAPI is useful for simulating a product catalog, it doesn't support advanced operations like adding products to the cart in a functional way. These actions only return static responses (200 OK), limiting the user experience. To address this, the development of a custom API is planned to allow full control over operations and improve response times.
 
-    Integración de pasarela de pagos: La plataforma está integrada con MercadoPago, permitiendo a los usuarios realizar pagos seguros directamente en la aplicación.
+Technologies Used
 
-Tecnologías utilizadas:
+    ReactJS: Framework for frontend development.
+    FakeStoreAPI: For simulating the product catalog.
+    CSS / TailwindCSS: For styling and frontend layout.
+    MercadoPago: (Coming soon) Integration for online payments.
 
-    ReactJS para el desarrollo del frontend.
-    MercadoPago para la integración de pagos en línea.
-    JWT (JSON Web Tokens) para la autenticación de usuarios.
-    FakeStoreAPI para la simulación de un catálogo de productos.
-    CSS / TailwindCSS para el diseño y maquetación del proyecto.
+Project Objective
 
-Objetivo del proyecto:
-
-Este ecommerce no solo demuestra cómo se pueden integrar diversas herramientas y tecnologías en una sola aplicación, sino que también es una simulación de una tienda en línea totalmente funcional. Con opciones para gestionar productos, autenticar usuarios y realizar pagos, este proyecto puede servir como base para desarrollos más complejos en el futuro.
+This e-commerce project aims to demonstrate how key technologies can be integrated into a single system, including product management, catalog simulation, and online payments. Although it currently uses a simulated API, the development of a custom API will turn this simulation into a more realistic and functional platform.
